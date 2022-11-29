@@ -1,0 +1,3 @@
+notes_about_types.txt
+notes_about_packages.txt
+notes_about_functions.txt

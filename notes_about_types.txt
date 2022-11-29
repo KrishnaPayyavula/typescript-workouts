@@ -1,0 +1,2 @@
+Types in TypeScript improve the developer experience.
+

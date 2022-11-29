@@ -1,0 +1,40 @@
+var a = "Krishna";
+a = 'Venu';
+var username;
+username = "ADMIN_USER";
+var arrayDec;
+arrayDec = ["krishna", "venu"];
+arrayDec.push("Hari");
+var tupleDec;
+tupleDec = ["krishna", 6];
+var boolDec;
+boolDec = true;
+var EnumDec;
+(function (EnumDec) {
+    EnumDec[EnumDec["NAME"] = 0] = "NAME";
+    EnumDec[EnumDec["AGE"] = 1] = "AGE";
+    EnumDec[EnumDec["LOCATION"] = 2] = "LOCATION";
+})(EnumDec || (EnumDec = {}));
+var loc = EnumDec.LOCATION;
+var maybe = "This is a Maybe Value";
+maybe = 6666;
+var idontknow;
+idontknow = ["Addning", "Some", "Data", 6, 6, 7];
+var ArrayOtherDec;
+ArrayOtherDec = [0, 1, 2, 3, 4, 5];
+var A = [1, 2, 3, 4, 5, 6, 7];
+A.splice(1, 3);
+console.log(A);
+function doSomethingUseful() {
+    console.log("I did some job here");
+    return "I am STRING coming from doSomethinguseful function";
+}
+doSomethingUseful();
+console.log(a);
+console.log(username);
+console.log(arrayDec);
+console.log(tupleDec);
+console.log("LOC", EnumDec);
+console.log(maybe);
+console.log(idontknow);
+console.log(ArrayOtherDec);
